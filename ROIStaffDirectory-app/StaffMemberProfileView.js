@@ -249,7 +249,6 @@ const StaffDetailsScreen = ({ route, navigation }) =>
                       {
                         backgroundColor: "#D9D9D9",
                         borderRadius: 4,
-
                         marginBottom: 10,
                       }
                     }
@@ -351,7 +350,6 @@ const StaffDetailsScreen = ({ route, navigation }) =>
                           {
                             backgroundColor: "#D9D9D9",
                             borderRadius: 4,
-
                             marginBottom: 10,
                           }
                         }
@@ -406,7 +404,6 @@ const StaffDetailsScreen = ({ route, navigation }) =>
                       {
                         backgroundColor: "#D9D9D9",
                         borderRadius: 4,
-
                         marginBottom: 10,
                       }
                     }
@@ -441,7 +438,6 @@ const StaffDetailsScreen = ({ route, navigation }) =>
                       {
                         backgroundColor: "#D9D9D9",
                         borderRadius: 4,
-
                         marginBottom: 10,
                       }
                     }
