@@ -302,6 +302,7 @@ const CreateStaffProfileView = ({ navigation }) => {
           }>
               <Text>Country:</Text>
               <TextInput
+                  value='Australia'
                   placeholder="Enter country..."
                   style=
                   {
@@ -323,7 +324,7 @@ const CreateStaffProfileView = ({ navigation }) => {
           }>
               <Text>Phone:</Text>
               <TextInput
-                  placeholder="Enter phone..."
+                  placeholder="Enter phone number..."
                   style=
                   {
                     {
