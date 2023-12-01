@@ -296,6 +296,7 @@
       fontFamily: 'Trebuchet', 
       fontSize: 14,
       color: '#666666',
+      marginLeft: 18, // Increase the margin to push the department text further right
     },
   };
 
