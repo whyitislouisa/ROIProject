@@ -2,6 +2,17 @@
 
 This app and server are made to manage a Staff Contact Directory for Red Opal Innovations
 
+## For ROI Managers:
+1. Go to this link to find the .APK file and download it
+
+https://github.com/whyitislouisa/ROIProject/releases/latest
+
+2. Use a USB cable or other form of file transfer to move the file to your Android device
+
+3. Use your device's in-built file explorer to open the APK file. You'll be prompted to install the app
+
+4. The app should now install and be usable
+
 ## Cloning the Repository
 
 To clone this repository to your local machine, open PowerShell and use the following command:
