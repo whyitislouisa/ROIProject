@@ -31,7 +31,7 @@ const CreateStaffProfileView = ({ navigation }) => {
   {
     try 
     {
-      const response = await fetch('http://192.168.1.115:3000/departments');
+      const response = await fetch('http://localhost/departments');
       const data = await response.json();
       setDepartmentDictionary(data);
 
@@ -73,7 +73,7 @@ const CreateStaffProfileView = ({ navigation }) => {
 
     try 
     {
-      const response = await fetch('http://192.168.1.115:3000/staff/', 
+      const response = await fetch('http://localhost/staff/', 
       {
         method: 'POST',
         headers: 

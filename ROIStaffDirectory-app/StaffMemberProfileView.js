@@ -54,7 +54,7 @@ const StaffDetailsScreen = ({ route, navigation }) =>
         {
             const response = await fetch
             (
-                "http://192.168.1.115:3000/departments"
+                "http://localhost/departments"
             );
             const data = await response.json();
             console.log("Departments received response: " + data.response);
@@ -89,7 +89,7 @@ const StaffDetailsScreen = ({ route, navigation }) =>
                         try 
                         {
                             const response = await fetch(
-                                `http://192.168.1.115:3000/staff/${staffMember.Id}`,
+                                `http://localhost/staff/${staffMember.Id}`,
                                 {
                                     method: "DELETE",
                                 }
@@ -152,7 +152,7 @@ const StaffDetailsScreen = ({ route, navigation }) =>
                 JSON.stringify(updatedStaffMember)
             );
 
-            const response = await fetch(`http://192.168.1.115:3000/staff/`, 
+            const response = await fetch(`http://localhost/staff/`, 
               {
                   method: "PUT",
                   headers: 

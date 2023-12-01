@@ -9,7 +9,7 @@
   import CreateStaffProfileView from './CreateStaffProfileView';
   import SettingsMenuView from './SettingsMenuView';
 
-  const uri = 'http://192.168.1.115:3000/staff';
+  const uri = 'http://localhost/staff';
 
   const Stack = createStackNavigator();
 
@@ -190,7 +190,7 @@
     {
       try 
       {
-        const response = await fetch('http://192.168.1.115:3000/departments');
+        const response = await fetch('http://localhost/departments');
         const data = await response.json();
         setDepartmentDictionary(data);
       } 
