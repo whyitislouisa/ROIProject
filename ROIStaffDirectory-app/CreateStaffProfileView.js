@@ -4,13 +4,13 @@ import { Picker } from '@react-native-picker/picker';
 
 const CreateStaffProfileView = ({ navigation }) => {
   const [departmentDictionary, setDepartmentDictionary] = useState({});
-  const [selectedDepartment, setSelectedDepartment] = useState('');
+  const [selectedDepartment, setSelectedDepartment] = useState(0);
   const [newFullName, setNewFullName] = useState('');
   const [newPhoneNumber, setNewPhoneNumber] = useState('');
   const [newStreet, setNewStreet] = useState('');
   const [newZIPCode, setNewZIPCode] = useState('');
-  const [newStateName, setNewStateName] = useState('');
-  const [newCountry, setNewCountry] = useState('');
+  const [newStateName, setNewStateName] = useState('NSW');
+  const [newCountry, setNewCountry] = useState('Australia');
 
   useEffect(() => 
   {

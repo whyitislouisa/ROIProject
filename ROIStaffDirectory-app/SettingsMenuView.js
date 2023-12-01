@@ -32,8 +32,6 @@ const SettingsScreen = () =>
       />
     </View>
   );
-
-  
 };
 
 
@@ -44,7 +42,7 @@ const OptionItem = (
 {
   return (
     <View style={styles.optionContainer}>
-      <Text style={styles.optionTitle}>{title}</Text>
+      <Text style={[styles.optionTitle]}>{title}</Text>
       {items ? 
       (
         <Picker

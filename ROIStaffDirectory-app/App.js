@@ -13,6 +13,10 @@
 
   const Stack = createStackNavigator();
 
+  async function hideSplashScreen() {
+    SplashScreen.hideAsync();
+  }
+
   export default function App() 
   {
     const {width, height} = Dimensions.get('window');
@@ -38,6 +42,9 @@
       });
     };
     
+    async function hideSplashScreen() {
+      SplashScreen.hideAsync();
+    }
 
     function handleOrientationAndLoadFont() 
     {
@@ -50,6 +57,7 @@
     
       loadFont();
       startUpStaffMembersList();
+      hideSplashScreen();
     }
     
     useEffect(handleOrientationAndLoadFont, []);
